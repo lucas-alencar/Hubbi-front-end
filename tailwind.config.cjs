@@ -5,6 +5,10 @@ const config = {
 	theme: {
 		extend: {}
 	},
+  
+	daisyui: {
+    themes: ["emerald"],
+  },
 
 	plugins: [
 	require("@tailwindcss/typography"),
